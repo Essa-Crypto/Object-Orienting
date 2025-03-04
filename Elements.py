@@ -8,5 +8,4 @@ class pair_elements:
             lookup[num] = i
 
 value = int(input("Enter sum for which you want to make this search : "))
-print("index1=%d, index2=%d" %
-    pair_elements().twoSum((10,20,30,40,50,60,70)), value)
+print("index1=%d, index2=%d" %pair_elements().twoSum((10,20,30,40,50,60,70)), value)
